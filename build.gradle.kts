@@ -41,11 +41,17 @@ dependencies {
 
     //Share Buttons (chapter 7)
     implementation(npm("react-share", "~4.2.1"))
+    //Video Player (chapter 7)
+    implementation(npm("react-youtube-lite", "1.0.1"))
+    //Share Buttons (chapter 7)
+    implementation(npm("react-share", "~4.2.1"))
 
     //Coroutines (chapter 8)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0-RC")
     implementation("org.jetbrains:kotlin-styled:5.2.1-pre.148-kotlin-1.4.21")
     implementation(npm("styled-components", "~5.2.1"))
+    //Coroutines (chapter 8)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
 }
 
 // Heroku Deployment (chapter 9)
